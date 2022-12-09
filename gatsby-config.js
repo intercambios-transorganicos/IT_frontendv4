@@ -6,10 +6,8 @@ module.exports = {
   siteMetadata: {
     title: `Intercambios Transorganicos`,
     description: `Investigacion Transdisciplinaria`,
-    author: ``,
-    siteUrl: `https://intercambios-transorganicos.netlify.app`,
+    siteUrl: `https://intercambiostransorganicos.org`,
   },
-  pathPrefix: "/IT-Gatsby",
   plugins: [
     `gatsby-plugin-netlify`,
      {
