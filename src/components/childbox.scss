@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+$lila:#7c428c;
+$acua: #4ca899;
+$bgGreen:#DEFCF0;
+$negro:#242424;
+$blanco : #fafafa;
+
+.article_box{
+    background-color:#ffffff00;
+    position:relative;
+    overflow:hidden;
+    min-height: 300px;
+}
+
+// .article_box:before{
+//     background:$lila;
+//     opacity:0;
+//     transition: all 0.3s ease-out;
+//     position:absolute;
+//     display:block;
+//     left:0;
+//     bottom:-50%;
+//     right:0;
+//     margin: auto;
+//     border-radius:100%;
+//     width: 300px;
+//     height: 300px;
+//     content: '';
+
+// }
+
+// .article_box:hover:before{
+//     opacity:0.8;
+//     transform:scale(1.5);
+    
+// }
+
+.proTitle{
+    color:$blanco;
+    
+   // mix-blend-mode:color-dodge;
+    font-size: 1.5em;
+    margin:15px;
+    margin-left:5px;
+    
+}
+
+.proSub{
+    color:$blanco;
+   // mix-blend-mode:color-dodge;
+    font-size: 1em;
+    margin:15px;
+    margin-left:5px;
+    
+}
+
+

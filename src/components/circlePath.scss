@@ -1,0 +1,22 @@
+
+@charset "utf-8";
+
+$lila:#7c428c;
+$acua: #4ca899;
+$bgGreen:#DEFCF0;
+$negro:#242424;
+$blanco : #fafafa;
+
+ // circlepath
+
+ .circlePathContainer{
+    display:flex;
+    justify-content:center;
+}
+
+.circlePath{
+    margin-top:10vh;
+    width:200px;
+    height:200px;
+}
+

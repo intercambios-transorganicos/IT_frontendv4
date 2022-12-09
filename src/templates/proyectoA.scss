@@ -1,0 +1,57 @@
+$lila:#7c428c;
+$acua: #4ca899;
+$bgGreen:#DEFCF0;
+$negro:#242424;
+$blanco : #fafafa;
+
+.proyectoContainer {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+.portadaTitulo{
+    position: absolute;
+    bottom: 130px;
+    margin: 0vh -1vh;
+    background-color: #7c428cb0;
+    padding: 2vh;
+    border-radius: 5px;
+    min-width: 20vw;
+}
+
+.portadaTitulo h1{
+    font-size:4vh;
+    color:$blanco;
+    margin-left: 4vh;
+    
+}
+
+.portadaTitulo h2{
+    font-size: 3vh;
+    color:$blanco;
+    margin-left: 4vh;
+}
+
+.iFrame {
+    position: relative;
+    padding-bottom: 56.25%; 
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.bLinks{
+    background-color:$lila;
+}
+
+@media (max-width: 600px){
+    .portadaTitulo{
+        position:revert;
+    }
+
+    
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+$lila:#7c428c;
+$acua: #4ca899;
+$bgGreen:#DEFCF0;
+$negro:#242424;
+$blanco : #fafafa;
+@import "~bulma/bulma.sass";
+
+*{
+    a{
+        color:#4ca899
+    }
+}
+
+body{
+    background-color: $blanco;
+}
+
+h1{
+   
+    font-family: 'B612', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+}
+
+.modal{
+    z-index:500;
+}
+
+.modal-close{
+    background-color:$acua;
+    cursor:pointer;
+}
+
+.landing-wrapper{
+    background: linear-gradient(0deg, rgba(20,20,20,1) 20%, rgba(124,66,140,1) 72%, rgba(230,230,230,1) 100%);
+}
+
+.pW {
+    overflow: hidden;
+  }
+
+@media (max-width: 600px){
+
+    .articleButtons{
+        position:unset;
+    }    
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+
+.footerV2{
+   // height:100vh;
+    background-color: #141414;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    z-index:100;
+    
+    .comunicacionIcon{
+        margin:1em;
+        color: #A666B7;
+        cursor:pointer;
+        position: absolute;
+        right:32px;
+        width:4vh;
+        transform-origin: center;
+    }
+
+    .logo {
+        margin-top: 4em !important;
+      }
+
+    .secciones{
+        margin-top: 60px;
+        margin-bottom: 40px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 13px;
+        
+        a{
+            color: #FFFFFF;
+
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 1px;
+            transition: background-size .6s;
+        }
+        a:hover, a:focus{
+            color: #A666B7;
+            background-size: 100% 1px;
+        }
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+    .redes{
+        color: #A666B7;
+        font-size: 30px;
+
+        a{
+            color: #A666B7; 
+        }
+        a:hover, a:focus{
+            color: #FFFFFF;
+        }
+
+        li:hover, li:focus{
+            color: #FFFFFF;
+        }
+    }
+    
+    .linea-cuadro{
+        min-height: 3px;
+        height: auto;
+        background-color: #A666B7;
+    }
+
+    .creditos{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 10px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px){
+    .footerV2{
+    .logo{
+        width: 150px;
+    }
+    .secciones a{
+        font-size: 7px;
+    }
+    .secciones{
+        margin-top: 3px;
+    }
+    .comunicacionIcon{
+        margin:0.5em;
+    }
+    
+  
+}
+}
+
+@media (max-width: 992px){
+    .footerV2{
+        
+        .secciones a{
+            font-size: 9px;
+        }
+        .secciones{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+       
+        .comunicacionIcon{
+            margin:0.5em;
+        }
+    
+
+    }
+}

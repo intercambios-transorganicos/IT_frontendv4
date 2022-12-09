@@ -1,0 +1,129 @@
+//About-layout
+$lila:#7c428c;
+$acua: #4ca899;
+$bgGreen:#DEFCF0;
+$negro:#242424;
+$blanco : #fafafa;
+
+.about1{
+    position: relative;
+    //background-color: $blanco;
+    //border:solid $blanco 5vh;
+    width: 100vw;
+    //height: 100vh;
+    display: flex;
+    place-items: flex-end;
+    overflow: hidden;
+}
+
+
+.about_columns{
+    z-index:2;
+    padding: 5vh 5vh 10vh 5vh;
+}
+
+.aboutCarousel{
+    position:absolute;
+    height: auto;
+  
+}
+
+.carousel-control-next, .carousel-control-prev{
+    top: unset !important;
+    bottom: -4vh !important;
+    width: 6% !important;
+    height: 27vh !important;
+    color:$lila
+   
+}
+
+.carousel-indicators {
+    bottom: 50px!important;
+}
+
+.carousel .carousel-indicators button{
+    background-color:$acua
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300ffd5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300ffd5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+
+
+@media (max-width: 768px){
+
+    .about1{
+        position:revert;
+        padding-bottom: 10vh;
+        //border:solid $blanco 1vh;
+        //height:100vh;
+        //padding-top: 4em;
+    }
+
+    .carousel-indicators{
+        top:0!important;
+    }
+    .aboutCarousel{
+        position:revert;
+        height: auto;
+        .aboutSlide{
+            .currentSlide{
+                margin-top: 3em;
+            }
+        }
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        top: 0 !important;
+    }
+   
+     //1_
+
+    .about1_{
+        display:flex;
+        flex-direction:column; 
+    }
+}
+
+@media (min-width: 768px){
+
+    .about1{
+        position:revert;
+       // height:100vh;
+    }
+    .aboutCarousel{
+        position:revert;
+        height: 100vh;
+
+    }
+}
+
+@media (min-width: 992px){
+    .about1{
+       height:100vh;
+    }
+    .aboutCarousel{
+        position:revert;
+        height: auto;
+    }
+}
+
+@media (min-width: 1280px){
+  .about1{
+    background-color:blue;
+    .aboutCarousel{
+        height: 100vh;
+        .aboutSlide{
+            .currentSlide{
+                height: 100vh;
+            }
+        }
+    }
+  }
+}
+

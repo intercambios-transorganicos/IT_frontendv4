@@ -1,0 +1,40 @@
+body{
+    //LOADER
+
+.loader_container{
+    width: 100vw;
+    height:100vh;
+    background-color: #4ca899;
+    display:flex;
+    place-items:center;
+    place-content:center;
+    position:absolute;
+    z-index: 5;
+    
+}
+
+.itLoader{
+    width:200px;
+    height:200px;
+}
+
+&.preloader_active{
+    height:100vh;
+    overflow:hidden
+}
+
+.fadeOutDownX{
+    animation: preloadFade 2s ease-in;
+}
+
+@keyframes preloadFade{
+    0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+}
+
+
+}
