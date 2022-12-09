@@ -22,7 +22,6 @@ module.exports = {
      },
      
     `gatsby-plugin-fontawesome-css`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     {
